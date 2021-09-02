@@ -8,6 +8,14 @@
 	<title>Blog_FlexBox</title>
 	<script src="app.js"></script>
 	<link rel="stylesheet" href="reset.css">
+	<!-- jQuery 1.8 or later, 33 KB -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<!-- Fotorama from CDNJS, 19 KB -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	
 	<link rel="stylesheet" href="style.css">
 	</head>
 	
@@ -46,21 +54,30 @@
 		</header>
 		<main>
 			<section id="slider">
+		<div class="fotorama" data-width="1900px"  data-nav="thumbs" data-ratio="800/600">
+			<img src="images/img_1.png" width="1900" height="660">
+					<img src="images/img_2.png" width="1900" height="660">
+					<img src="images/img_3.png" width="1900" height="660">
+				</div>
 				<div class="container">
 					<div class="row">
-					<div class="slider_cont"> 
+						<div class="slider_cont"> 
 						<div class="col-xs-12 col-sm-12 col-md-12">
-							<div class="title-text">
-								<div class="title_welcome">WELCOME TO OUR MARKETPLACE</div>
+							<div class="buttons_slider">
+							<button class="btn_slider">view more</button>
+							<button class="btn_slider">video tour</button>
+					</div>
+
+							<!-- <div class="title-text"> -->
+
+
+								<!-- <div class="title_welcome">WELCOME TO OUR MARKETPLACE</div>
 								<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus,
 									tristique ndolor<br>
-									non, ornare sagittis dolor. Nulla vestibulu lacus ...</div>
-								<div class="buttons_slider">
-									<button class="btn_slider">view more</button>
-									<button class="btn_slider">video tour</button>
-								</div>
+									non, ornare sagittis dolor. Nulla vestibulu lacus ...</div> -->
 							</div>
 						</div>
+					
 					</div>
 					</div>
 				</div>
@@ -253,31 +270,63 @@
 											<div class="picture"><a href=""><img src="images/canatka.png" alt="mg"></a>
 											<div class="plashka-2">
 											<p class="guidlines">partnership guidlines</p>
+											<div class="plus"><a href=""><img src="images/plus.png" alt="mg"></a></div>
 											</div>
 											</div>
 											</div>
 											<div class="col-md-4 col-sm-5 col-xs-12">
-											<div class="picture"><a href=""><img src="images/skayit.png" alt="mg"></a></div>
+											<div class="picture"><a href=""><img src="images/skayit.png" alt="mg"></a>
+											<div class="plashka-2">
+												<p class="guidlines">partnership guidlines</p>
+												<div class="plus"><a href=""><img src="images/plus.png" alt="mg"></a></div>
+											</div>
+											</div>
 											</div>
 											<div class="col-md-4 col-sm-5 col-xs-12">
-											<div class="picture"><a href=""><img src="images/road.png" alt="mg"></a></div>
+											<div class="picture"><a href=""><img src="images/road.png" alt="mg"></a>
+											<div class="plashka-2">
+												<p class="guidlines">partnership guidlines</p>
+												<div class="plus"><a href=""><img src="images/plus.png" alt="mg"></a></div>
+											</div>
+											</div>
 											</div>
 											<div class="col-md-4 col-sm-5 col-xs-12">
-											<div class="picture"><a href=""><img src="images/sea_korabl.png" alt="mg"></a></div>
+											<div class="picture"><a href=""><img src="images/sea_korabl.png" alt="mg"></a>
+											<div class="plashka-2">
+												<p class="guidlines">partnership guidlines</p>
+												<div class="plus"><a href=""><img src="images/plus.png" alt="mg"></a></div>
+											</div>
+											</div>
 											</div>
 											<div class="col-md-4 col-sm-5 col-xs-12">
-											<div class="picture"><a href=""><img src="images/mounties.png" alt="mg"></a></div>
+											<div class="picture"><a href=""><img src="images/mounties.png" alt="mg"></a>
+											<div class="plashka-2">
+												<p class="guidlines">partnership guidlines</p>
+												<div class="plus"><a href=""><img src="images/plus.png" alt="mg"></a></div>
+											</div>
+											</div>
 											</div>
 											<div class="col-md-4 col-sm-5 col-xs-12">
-											<div class="picture"><a href=""><img src="images/ptah.png" alt="mg"></a></div>
+											<div class="picture"><a href=""><img src="images/ptah.png" alt="mg"></a>
+											<div class="plashka-2">
+												<p class="guidlines">partnership guidlines</p>
+												<div class="plus"><a href=""><img src="images/plus.png" alt="mg"></a></div>
+											</div>
+											</div>
 											</div>	
+										</div>
+										<div class="butn_more">
+										<button class="show_more"><a href="#">show me more</a></button>
 										</div>
 											</div>
 										</div>
 											</div>
 								</div>
 			</section>
+
 		</main>
+		
+		<script src="app.js"></script>
 	</body>
 	
 	</html>
